@@ -10,10 +10,10 @@ describe "fizzbuzz" do
   it 'returns "Buzz" when the number is divisible by 5'  do
     fizz_5.to = "Buzz"
 
-    expect(fizz_5).to eq("Buzz")
+    expect(fizz_5).to eq("FizzBuzz")
   end
-  it 'returns "Buzz" when the number is divisible by 3 and 5' do
-    fizz_15 = "Buzz"
+  it 'returns "FizzBuzz" when the number is divisible by 3 and 5' do
+    fizz_15 = "FizzBuzz"
 
     expect(fizz_15).to eq("FizzBuzz")
   end
