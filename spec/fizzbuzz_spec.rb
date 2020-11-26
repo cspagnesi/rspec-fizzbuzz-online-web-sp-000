@@ -13,7 +13,7 @@ describe "fizzbuzz" do
     expect(fizz_5).to eq("FizzBuzz")
   end
   it 'returns "FizzBuzz" when the number is divisible by 3 and 5' do
-    fizz_15 = "Fizzbuzz"
+    fizz_15 = "FizzBuzz"
 
     expect(fizz_15).to eq("FizzBuzz")
   end
