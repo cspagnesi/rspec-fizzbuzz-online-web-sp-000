@@ -5,7 +5,7 @@ describe "fizzbuzz" do
   it 'returns "Fizz" when the number is divisible by 3' do
     fizz_3 = "Fizz"
 
-fizz_5.to = "Buzz"
+
     expect(fizz_3).to eq("Fizz")
   end
   it 'returns "Buzz" when the number is divisible by 5'  do
